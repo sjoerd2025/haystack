@@ -28,7 +28,7 @@
 | haystack/components/converters/image/document\_to\_image.py               |       47 |        0 |    100% |           |
 | haystack/components/converters/image/file\_to\_document.py                |       27 |        1 |     96% |        94 |
 | haystack/components/converters/image/file\_to\_image.py                   |       53 |        0 |    100% |           |
-| haystack/components/converters/image/image\_utils.py                      |      128 |        5 |     96% |78-82, 104, 109-110 |
+| haystack/components/converters/image/image\_utils.py                      |      129 |        5 |     96% |78-82, 104, 109-110 |
 | haystack/components/converters/image/pdf\_to\_image.py                    |       46 |        3 |     93% |   137-141 |
 | haystack/components/converters/json.py                                    |       91 |       11 |     88% |228-229, 231-234, 238-239, 251-252, 283-285 |
 | haystack/components/converters/markdown.py                                |       71 |       10 |     86% |107, 120-122, 128-134, 152, 173-178 |
@@ -64,7 +64,7 @@
 | haystack/components/extractors/\_\_init\_\_.py                            |        5 |        0 |    100% |           |
 | haystack/components/extractors/image/\_\_init\_\_.py                      |        5 |        0 |    100% |           |
 | haystack/components/extractors/image/llm\_document\_content\_extractor.py |      152 |        0 |    100% |           |
-| haystack/components/extractors/llm\_metadata\_extractor.py                |      168 |       12 |     93% |311-319, 333-341, 414, 466 |
+| haystack/components/extractors/llm\_metadata\_extractor.py                |      166 |       12 |     93% |316-324, 339-347, 408, 470 |
 | haystack/components/extractors/regex\_text\_extractor.py                  |       49 |        0 |    100% |           |
 | haystack/components/fetchers/\_\_init\_\_.py                              |        5 |        0 |    100% |           |
 | haystack/components/fetchers/link\_content.py                             |      202 |       18 |     91% |212-220, 288, 337-341, 426-430, 471, 504 |
@@ -152,7 +152,7 @@
 | haystack/core/super\_component/\_\_init\_\_.py                            |        2 |        0 |    100% |           |
 | haystack/core/super\_component/super\_component.py                        |      195 |        7 |     96% |67, 199, 212, 250, 304, 346, 599 |
 | haystack/core/super\_component/utils.py                                   |       95 |        4 |     96% |77, 112, 124, 181 |
-| haystack/core/type\_utils.py                                              |      170 |        6 |     96% |95, 97, 102, 167, 209, 301 |
+| haystack/core/type\_utils.py                                              |      173 |        6 |     97% |95, 97, 102, 167, 211, 306 |
 | haystack/dataclasses/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/dataclasses/answer.py                                            |       57 |        0 |    100% |           |
 | haystack/dataclasses/breakpoints.py                                       |       39 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                     |      144 |        6 |     96% |106, 108, 260-261, 269, 285 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **17307** |  **743** | **96%** |           |
+| **TOTAL**                                                                 | **17309** |  **743** | **96%** |           |
 
 
 ## Setup coverage badge
